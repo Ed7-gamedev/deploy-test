@@ -46,7 +46,7 @@ jobs:
     - name: Flet Build Web
       run: |
         echo "https://ed7-gamedev.github.io/deploy-test/"
-        flet build web --base-url /deploy-test hash
+        flet build web --base-url hash
 
     - name: List Build Directory
       run: ls -R build/web
