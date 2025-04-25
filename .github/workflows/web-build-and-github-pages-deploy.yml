@@ -45,7 +45,7 @@ jobs:
 
     - name: Flet Build Web
       run: |
-        echo "GITHUB_REPOSITORY: ${GITHUB_REPOSITORY}, USER: ${GITHUB_REPOSITORY%/*}, PROJECT_BASE_URL: ${GITHUB_REPOSITORY#*/}"
+        echo "https://ed7-gamedev.github.io/deploy-test/"
         flet build web --base-url /deploy-test --route-url-strategy hash
 
     - name: List Build Directory
